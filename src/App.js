@@ -3,11 +3,16 @@ import './App.css';
 import MainHeader from './components/mainHeader';
 import ImgComponent from './components/ImgComponent';
 import BtnToNaver from './components/BtnToNaver';
+import ClassComponent from './components/ClassComponent';
+import FuntionalCompo from './components/FuntionalCompo';
+
 
 function App() {
   return (
     <div className="App">
-      <MainHeader />
+      {/* <ClassComponent />
+      <FuntionalCompo />
+      <MainHeader /> */}
       <br />
       <br />
       <ImgComponent />
