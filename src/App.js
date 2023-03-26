@@ -5,9 +5,14 @@ import ImgComponent from './components/ImgComponent';
 import BtnToNaver from './components/BtnToNaver';
 import ClassComponent from './components/ClassComponent';
 import FuntionalCompo from './components/FuntionalCompo';
-
+import { useState } from 'react';
 
 function App() {
+
+  let [att, setAtt] = useState(["에어조던", "나이키", "아디다스", "폴로"])
+  let [turn, setTurn] = useState("on")
+
+    
   return (
     <div className="App">
       {/* <ClassComponent />
@@ -20,8 +25,18 @@ function App() {
       <br />
       <br />
       <BtnToNaver />
+
+      <button onClick={()=>{
+        if(turn === "on") {
+          setTurn("off")
+        }
+      }}></button>
+
     </div>
+    
+   
   );
 }
+
 
 export default App;
