@@ -5,22 +5,34 @@ import ImgComponent from './components/ImgComponent';
 import BtnToNaver from './components/BtnToNaver';
 import ClassComponent from './components/ClassComponent';
 import FuntionalCompo from './components/FuntionalCompo';
+import Inline from './components/Inline';
 import { useState } from 'react';
+import EventHandler from './components/EventHandler';
+import Practice from './components/Practice';
+
 
 function App() {
-  
-  function azmazing () {
-    return(
-      "어메이징"
-    )
-  }
 
-  const test = 'test'
+  
+  // function azmazing () {
+  //   return(
+  //     "어메이징"
+  //   )
+  // }
+
+  // const test = 'test'
   return (
     <div className="App">
-      <h1 className='test'>Class Component 입니다!</h1>
+
+    <Practice />
+
+      {/* <h1 className='test'>Class Component 입니다!</h1>
       {azmazing()}
       <div className={test}>{ typeof test === 'string' ? "스트링" : "다른 것"} </div>
+
+      <EventHandler />
+
+      <Inline /> */}
       {/* <ClassComponent />
       <FuntionalCompo />
       <MainHeader />
