@@ -9,11 +9,11 @@ import Inline from './components/Inline';
 import { useState } from 'react';
 import EventHandler from './components/EventHandler';
 import Practice from './components/Practice';
+import State from './components/State';
+import State2 from './components/State2';
 
 
 function App() {
-
-  
   // function azmazing () {
   //   return(
   //     "어메이징"
@@ -23,6 +23,9 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
+    <State2 />
+
+    <State />
 
     <Practice />
 

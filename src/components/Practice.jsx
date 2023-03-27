@@ -1,17 +1,10 @@
-function Practice () {
+import React from 'react'
 
-  let helloStr = "Hello, first exercise";
-
-  return(
-    <>
-     <div style={{marginTop: "32px", backgroundColor: "skyblue"}}>실습</div>
-     <br />
-     <div onClick={()=> {
-      alert("클릭 됨")
-     }}>{helloStr}</div>
-    </>
-    
+export default function Practice() {
+  const str = "Hello, first exercise"
+  return (
+    <div style={{ marginTop: "32px", backgroundColor: "skyblue" }} onClick={()=> {
+      alert("클릭 됨");
+    }}>{str}</div>
   )
 }
-
-export default Practice;
