@@ -8,30 +8,29 @@ import FuntionalCompo from './components/FuntionalCompo';
 import { useState } from 'react';
 
 function App() {
+  
+  function azmazing () {
+    return(
+      "어메이징"
+    )
+  }
 
-  let [att, setAtt] = useState(["에어조던", "나이키", "아디다스", "폴로"])
-  let [turn, setTurn] = useState("on")
-
-    
+  const test = 'test'
   return (
     <div className="App">
+      <h1 className='test'>Class Component 입니다!</h1>
+      {azmazing()}
+      <div className={test}>{ typeof test === 'string' ? "스트링" : "다른 것"} </div>
       {/* <ClassComponent />
       <FuntionalCompo />
-      <MainHeader /> */}
+      <MainHeader />
       <br />
       <br />
       <ImgComponent />
       <br />
       <br />
       <br />
-      <BtnToNaver />
-
-      <button onClick={()=>{
-        if(turn === "on") {
-          setTurn("off")
-        }
-      }}></button>
-
+      <BtnToNaver /> */}
     </div>
     
    
