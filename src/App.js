@@ -11,6 +11,8 @@ import EventHandler from './components/EventHandler';
 import Practice from './components/Practice';
 import State from './components/State';
 import State2 from './components/State2';
+import Practice2 from './components/Practice2';
+import Condition from './components/Condition';
 
 
 function App() {
@@ -23,6 +25,14 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
+    <Condition />
+
+    <br />
+
+    <Practice2 />
+
+    <br />
+
     <State2 />
 
     <State />
