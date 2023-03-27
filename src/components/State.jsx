@@ -5,9 +5,7 @@ export default function State() {
 
   return (
     <div>
-      <button onClick={()=>{
-        setTeacher("tetz Lee")
-      }}>영어로!</button>
+      <button onClick={()=>{setTeacher("tetz Lee")}}>영어로!</button>
       <br />
       <span id="text">{teacher}</span>
     </div>

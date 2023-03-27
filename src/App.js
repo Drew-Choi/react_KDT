@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
 //컴포넌트는 파스칼케이스로 만들어야 읽어들임
 import MainHeader from './components/mainHeader';
@@ -13,6 +14,9 @@ import State from './components/State';
 import State2 from './components/State2';
 import Practice2 from './components/Practice2';
 import Condition from './components/Condition';
+import Practice3 from './components/Practice3';
+import ClassComp from './components/ClassComp';
+import StateAndVariable from './components/StateAndVariable';
 
 
 function App() {
@@ -25,19 +29,28 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
-    <Condition />
+     <StateAndVariable />
+     <br />
+      
+      <ClassComp />
+      <br />
+      <Practice3 />
 
-    <br />
+      <br />
 
-    <Practice2 />
+      {/* <Condition />
 
-    <br />
+      <br />
 
-    <State2 />
+      <Practice2 />
 
-    <State />
+      <br />
 
-    <Practice />
+      <State2 />
+
+      <State />
+
+      <Practice /> */}
 
       {/* <h1 className='test'>Class Component 입니다!</h1>
       {azmazing()}
