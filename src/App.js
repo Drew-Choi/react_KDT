@@ -24,10 +24,36 @@ import MultiProps from './components/MultiProps';
 import ClassProps from './components/ClassProps';
 import Practice4 from './components/Practice4';
 import items from './ItemsData';
+import CustomList from './components/CustomList';
+import CustomObj from './components/CustomObj';
+import ChangeObj from './components/ChangeObj';
 
 
 function App() {
-  const str = "Go Naver";
+
+  const pororoObjArr = [
+    {
+    name: "뽀로로",
+    age: "5",
+    nickName: "사고뭉치",
+    },
+    {
+    name: "루피",
+    age: "4", nickName: "공주님",
+    },
+    {
+    name: "크롱이",
+    age: "5",
+    nickName: "장난꾸러기",
+    }, 
+  ];
+  // const nameArr = ["뽀로로", "루피", "크롱이"];
+  // const str = "Go Naver";
+  // const pororoObj = {
+  //   name: "뽀로로",
+  //   age: "5",
+  //   nickName: "사고뭉치",
+  // }
   // function azmazing () {
   //   return(
   //     "어메이징"
@@ -36,8 +62,15 @@ function App() {
 
   // const test = 'test'
   return (
-    
     <div className="App">
+
+      <ChangeObj objArr= {pororoObjArr} />
+
+    {/* <CustomList />
+    <CustomObj obj={pororoObj} />
+
+    <br />
+
     <h1>하드 코딩</h1>
     <Practice4 item="PS5" price="685,000" />
     <Practice4 item="에어프라이어" price="50,000" />
@@ -62,7 +95,7 @@ function App() {
 
       <br />
       <br />
-      <List />
+      <List /> */}
 
       {/* <ClassProps name= "뽀로로" age={5} nickName="사고뭉치" />
 
