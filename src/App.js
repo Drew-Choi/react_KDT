@@ -17,6 +17,8 @@ import Condition from './components/Condition';
 import Practice3 from './components/Practice3';
 import ClassComp from './components/ClassComp';
 import StateAndVariable from './components/StateAndVariable';
+import StateProblem from './components/StateProblem';
+import List from './components/List';
 
 
 function App() {
@@ -28,7 +30,12 @@ function App() {
 
   // const test = 'test'
   return (
+    
     <div className="App">
+     <List />
+     <br />
+     <StateProblem />
+     <br />
      <StateAndVariable />
      <br />
       
