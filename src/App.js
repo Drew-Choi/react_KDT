@@ -22,6 +22,8 @@ import List from './components/List';
 import PropsHeader from './components/PropsHeader';
 import MultiProps from './components/MultiProps';
 import ClassProps from './components/ClassProps';
+import Practice4 from './components/Practice4';
+import items from './ItemsData';
 
 
 function App() {
@@ -36,7 +38,30 @@ function App() {
   return (
     
     <div className="App">
+    <h1>하드 코딩</h1>
+    <Practice4 item="PS5" price="685,000" />
+    <Practice4 item="에어프라이어" price="50,000" />
+    <Practice4 item="사세 치킨윙" price="11,500" />
 
+
+    <hr />
+
+    <h1>props만</h1>
+      <Practice4 item={items[0].item} price={items[0].price} />
+      <Practice4 item={items[1].item} price={items[1].price} />
+      <Practice4 item={items[2].item} price={items[2].price} />
+
+     <hr />
+     <h1>Map props</h1>
+
+      {
+        items.map((el, index) => 
+          <Practice4 key={index} item={el.item} price={el.price} />
+        )
+      }
+
+      <br />
+      <br />
       <List />
 
       {/* <ClassProps name= "뽀로로" age={5} nickName="사고뭉치" />
