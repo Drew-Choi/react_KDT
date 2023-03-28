@@ -27,26 +27,10 @@ import items from './ItemsData';
 import CustomList from './components/CustomList';
 import CustomObj from './components/CustomObj';
 import ChangeObj from './components/ChangeObj';
+import ExampleChangeObj from './components/ExampleChangeObj';
 
 
 function App() {
-
-  const pororoObjArr = [
-    {
-    name: "뽀로로",
-    age: "5",
-    nickName: "사고뭉치",
-    },
-    {
-    name: "루피",
-    age: "4", nickName: "공주님",
-    },
-    {
-    name: "크롱이",
-    age: "5",
-    nickName: "장난꾸러기",
-    }, 
-  ];
   // const nameArr = ["뽀로로", "루피", "크롱이"];
   // const str = "Go Naver";
   // const pororoObj = {
@@ -64,7 +48,7 @@ function App() {
   return (
     <div className="App">
 
-      <ChangeObj objArr= {pororoObjArr} />
+     <ExampleChangeObj />
 
     {/* <CustomList />
     <CustomObj obj={pororoObj} />
