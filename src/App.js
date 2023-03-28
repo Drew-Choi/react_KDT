@@ -19,9 +19,13 @@ import ClassComp from './components/ClassComp';
 import StateAndVariable from './components/StateAndVariable';
 import StateProblem from './components/StateProblem';
 import List from './components/List';
+import PropsHeader from './components/PropsHeader';
+import MultiProps from './components/MultiProps';
+import ClassProps from './components/ClassProps';
 
 
 function App() {
+  const str = "Go Naver";
   // function azmazing () {
   //   return(
   //     "어메이징"
@@ -32,7 +36,30 @@ function App() {
   return (
     
     <div className="App">
-     <List />
+
+      <List />
+
+      {/* <ClassProps name= "뽀로로" age={5} nickName="사고뭉치" />
+
+      <br />
+      <br />
+
+      <MultiProps text={str} href="https://naver.com" userID="tetz" />
+
+      <br />
+
+      <PropsHeader text="Hello, Props World!" />
+
+      <br />
+
+      <PropsHeader text="Hello" />
+
+      <br />
+
+      <PropsHeader text="안녕?" /> */}
+
+
+     {/* <List />
      <br />
      <StateProblem />
      <br />
@@ -43,7 +70,7 @@ function App() {
       <br />
       <Practice3 />
 
-      <br />
+      <br /> */}
 
       {/* <Condition />
 
