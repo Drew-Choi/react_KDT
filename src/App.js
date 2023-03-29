@@ -34,6 +34,8 @@ import CustomList from './components/CustomList';
 import CustomObj from './components/CustomObj';
 import ChangeObj from './components/ChangeObj';
 import ExampleChangeObj from './components/ExampleChangeObj';
+import TestRef from './components/TestRef';
+import ChangeFocus from './components/ChangeFocus';
 
 function App() {
   // const nameArr = ["뽀로로", "루피", "크롱이"];
@@ -52,7 +54,9 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
-      <ExampleChangeObj />
+      <ChangeFocus />
+      <TestRef />
+      {/* <ExampleChangeObj /> */}
 
       {/* <CustomList />
     <CustomObj obj={pororoObj} />
