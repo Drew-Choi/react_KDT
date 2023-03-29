@@ -10,6 +10,7 @@ export default function ChangeFocus() {
   const changeFocusTwo = () => {
     input2.current.focus();
   };
+
   return (
     <div>
       <input ref={input1} />

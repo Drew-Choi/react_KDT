@@ -36,6 +36,10 @@ import ChangeObj from './components/ChangeObj';
 import ExampleChangeObj from './components/ExampleChangeObj';
 import TestRef from './components/TestRef';
 import ChangeFocus from './components/ChangeFocus';
+import RefDomControl from './components/RefDomControl';
+import Practice5 from './components/Practice5';
+import Sbuck from './components/Sbuck';
+import Sbuck2 from './components/Sbuck2';
 
 function App() {
   // const nameArr = ["뽀로로", "루피", "크롱이"];
@@ -54,8 +58,14 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
-      <ChangeFocus />
-      <TestRef />
+      <Sbuck />
+
+      {/* <Practice5 />
+      <br />
+      <RefDomControl /> */}
+
+      {/* <ChangeFocus />
+      <TestRef /> */}
       {/* <ExampleChangeObj /> */}
 
       {/* <CustomList />
