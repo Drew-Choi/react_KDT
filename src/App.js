@@ -40,6 +40,8 @@ import RefDomControl from './components/RefDomControl';
 import Practice5 from './components/Practice5';
 import Sbuck from './components/Sbuck';
 import Sbuck2 from './components/Sbuck2';
+import Comparing from './components/Comparing';
+import ReactFragment from './components/ReactFragment';
 
 function App() {
   // const nameArr = ["뽀로로", "루피", "크롱이"];
@@ -58,7 +60,13 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
-      <Sbuck />
+      <ReactFragment />
+
+      {/* <Comparing />
+
+      <br />
+
+      <Sbuck2 /> */}
 
       {/* <Practice5 />
       <br />
