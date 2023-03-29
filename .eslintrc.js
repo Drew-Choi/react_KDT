@@ -7,6 +7,7 @@ module.exports = {
     'consistent-return': 'off',
     'nonblock-statement-body-position': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'no-unused-expressions': 'off',
     curly: 'off',
   },
   parserOptions: {
