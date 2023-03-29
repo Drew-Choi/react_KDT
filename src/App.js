@@ -1,3 +1,9 @@
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable spaced-comment */
+/* eslint-disable import/extensions */
+/* eslint-disable import/order */
+/* eslint-disable import/no-unresolved */
 /* eslint-disable no-unused-vars */
 import './App.css';
 //컴포넌트는 파스칼케이스로 만들어야 읽어들임
@@ -29,7 +35,6 @@ import CustomObj from './components/CustomObj';
 import ChangeObj from './components/ChangeObj';
 import ExampleChangeObj from './components/ExampleChangeObj';
 
-
 function App() {
   // const nameArr = ["뽀로로", "루피", "크롱이"];
   // const str = "Go Naver";
@@ -47,10 +52,9 @@ function App() {
   // const test = 'test'
   return (
     <div className="App">
+      <ExampleChangeObj />
 
-     <ExampleChangeObj />
-
-    {/* <CustomList />
+      {/* <CustomList />
     <CustomObj obj={pororoObj} />
 
     <br />
@@ -100,8 +104,7 @@ function App() {
 
       <PropsHeader text="안녕?" /> */}
 
-
-     {/* <List />
+      {/* <List />
      <br />
      <StateProblem />
      <br />
@@ -146,10 +149,7 @@ function App() {
       <br />
       <BtnToNaver /> */}
     </div>
-    
-   
   );
 }
-
 
 export default App;
