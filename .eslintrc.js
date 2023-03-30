@@ -15,6 +15,6 @@ module.exports = {
     'react/prop-types': 'off',
     //아래꺼는 나중에 뺴야함
     'react/react-in-jsx-scope': 'off',
-    // 'no-unused-vars': 'off',
+    'no-unused-vars': 'off',
   },
 };

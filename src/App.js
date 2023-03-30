@@ -1,9 +1,11 @@
 // import React, { useState } from 'react';
 import './App.css';
+import PracticeTimerRender from './components/PracticeTimerRender';
 // import ConditionalState from './components/ConditionalState';
 // import PracticeOne from './components/PracticeOne';
 // import PracticeTwo from './components/PracticeTwo';
-import TestUseEffect from './components/TestUseEffect';
+// import TestUseEffect from './components/TestUseEffect';
+// import TimerRender from './components/TimerRender';
 //컴포넌트는 파스칼케이스로 만들어야 읽어들임
 // import MainHeader from './components/mainHeader';
 // import ImgComponent from './components/ImgComponent';
@@ -60,7 +62,11 @@ function App() {
 
   return (
     <div className="App">
-      <TestUseEffect />
+      <PracticeTimerRender />
+
+      {/* <TimerRender /> */}
+
+      {/* <TestUseEffect /> */}
       {/* <br />
       {on === '1번' ? <PracticeOne on={on} /> : <PracticeTwo on={on} />}
       <button
