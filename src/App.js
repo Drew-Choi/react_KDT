@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import './App.css';
 // import ConditionalState from './components/ConditionalState';
-import PracticeOne from './components/PracticeOne';
-import PracticeTwo from './components/PracticeTwo';
+// import PracticeOne from './components/PracticeOne';
+// import PracticeTwo from './components/PracticeTwo';
+import TestUseEffect from './components/TestUseEffect';
 //컴포넌트는 파스칼케이스로 만들어야 읽어들임
 // import MainHeader from './components/mainHeader';
 // import ImgComponent from './components/ImgComponent';
@@ -55,12 +56,13 @@ function App() {
   // }
 
   // const test = 'test'
-  const [on, setOn] = useState('1번');
+  // const [on, setOn] = useState('1번');
 
   return (
     <div className="App">
-      <br />
-      {on === '1번' ? <PracticeOne /> : <PracticeTwo />}
+      <TestUseEffect />
+      {/* <br />
+      {on === '1번' ? <PracticeOne on={on} /> : <PracticeTwo on={on} />}
       <button
         onClick={() => {
           on === '1번' ? setOn('2번') : setOn('1번');
@@ -68,7 +70,7 @@ function App() {
       >
         {on}
       </button>
-      <br />
+      <br /> */}
 
       {/* <ConditionalState /> */}
 
