@@ -1,15 +1,4 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable arrow-body-style */
-/* eslint-disable no-alert */
-/* eslint-disable no-undef */
-/* eslint-disable no-else-return */
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable spaced-comment */
-/* eslint-disable import/extensions */
-/* eslint-disable import/order */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable no-unused-vars */
+import React from 'react';
 
 // import image from './강쥐.jpeg';
 //이미지파일을 로컬에서 불러올때 src내에 있어야 불러올 수 있다.
