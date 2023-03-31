@@ -1,7 +1,9 @@
 // import React, { useState } from 'react';
 import './App.css';
-import ProfileComp from './components/ProfileComp';
-import UseEffectFetch from './components/UseEffectFetch';
+// import ProfileComp from './components/ProfileComp';
+import TestStyled from './components/TestStyled';
+// import UseEffectFetch from './components/UseEffectFetch';
+// import UsingUseMemo from './components/UsingUseMemo';
 // import PracticeTimerRender from './components/PracticeTimerRender';
 // import ConditionalState from './components/ConditionalState';
 // import PracticeOne from './components/PracticeOne';
@@ -64,8 +66,10 @@ function App() {
 
   return (
     <div className="App">
-      <UseEffectFetch />
-      <ProfileComp />
+      <TestStyled />
+
+      {/* <UsingUseMemo /> */}
+      {/* <UseEffectFetch /> */}
       {/* <PracticeTimerRender /> */}
       {/* <TimerRender /> */}
       {/* <TestUseEffect /> */}
