@@ -1,5 +1,6 @@
 // import React, { useState } from 'react';
 import './App.css';
+import Practice6 from './components/Practice6';
 // import ProfileComp from './components/ProfileComp';
 import TestStyled from './components/TestStyled';
 // import UseEffectFetch from './components/UseEffectFetch';
@@ -66,7 +67,7 @@ function App() {
 
   return (
     <div className="App">
-      <TestStyled />
+      <Practice6 />
 
       {/* <UsingUseMemo /> */}
       {/* <UseEffectFetch /> */}
