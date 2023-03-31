@@ -1,6 +1,8 @@
 // import React, { useState } from 'react';
 import './App.css';
-import PracticeTimerRender from './components/PracticeTimerRender';
+import ProfileComp from './components/ProfileComp';
+import UseEffectFetch from './components/UseEffectFetch';
+// import PracticeTimerRender from './components/PracticeTimerRender';
 // import ConditionalState from './components/ConditionalState';
 // import PracticeOne from './components/PracticeOne';
 // import PracticeTwo from './components/PracticeTwo';
@@ -62,10 +64,10 @@ function App() {
 
   return (
     <div className="App">
-      <PracticeTimerRender />
-
+      <UseEffectFetch />
+      <ProfileComp />
+      {/* <PracticeTimerRender /> */}
       {/* <TimerRender /> */}
-
       {/* <TestUseEffect /> */}
       {/* <br />
       {on === '1번' ? <PracticeOne on={on} /> : <PracticeTwo on={on} />}
@@ -77,9 +79,7 @@ function App() {
         {on}
       </button>
       <br /> */}
-
       {/* <ConditionalState /> */}
-
       {/* <ReactFragment /> */}
       {/* <Comparing />
 
