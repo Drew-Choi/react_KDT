@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 export default function State() {
-  const [teacher, setTeacher] = useState('이효석');
+  const [teacher, setTeacher] = useState('C아저씨');
 
   return (
     <div>
       <button
         onClick={() => {
-          setTeacher('tetz Lee');
+          setTeacher('Mr.C');
         }}
       >
         영어로!
