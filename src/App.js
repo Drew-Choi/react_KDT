@@ -26,6 +26,8 @@ import PropsHeader from './components/PropsHeader';
 import { useState } from 'react';
 import PropsStyle from './components/PropsStyle';
 import TestSCSS from './components/TestSCSS';
+import ImgComp from './components/ImgComp';
+import FancyBorder from './components/FancyBorder';
 // import State2 from './components/State2';
 // import Practice2 from './components/Practice2';
 // import Condition from './components/Condition';
@@ -72,7 +74,14 @@ function App() {
 
   return (
     <div className="App">
-      <TestSCSS />
+      {/* 프롭스.칠드런으로 app.js에 그려진 h1과 p와 ImgComp들을 임폴트한다. 그래서 FancyBorder로 꾸며진 스타일을적용한다. */}
+      <FancyBorder color={'blue'}>
+        <h1>Hello, props.children</h1>
+        <p>이건 매우 유용한 기술입니다.</p>
+        <ImgComp />
+      </FancyBorder>
+      {/* <ImgComp /> */}
+      {/* <TestSCSS /> */}
       {/* <PropsStyle color={'orange'} /> */}
       {/* <PropsHeader text={text} /> */}
 
