@@ -24,6 +24,7 @@ import TestStyled from './components/TestStyled';
 import State from './components/State';
 import PropsHeader from './components/PropsHeader';
 import { useState } from 'react';
+import PropsStyle from './components/PropsStyle';
 // import State2 from './components/State2';
 // import Practice2 from './components/Practice2';
 // import Condition from './components/Condition';
@@ -66,11 +67,12 @@ function App() {
 
   // const test = 'test'
   // const [on, setOn] = useState('1번');
-  const [text] = useState('C아저씨');
+  const [text] = useState('zzdasdsasadzzzzzzz');
 
   return (
     <div className="App">
-      <PropsHeader text={text} />
+      <PropsStyle color={'orange'} />
+      {/* <PropsHeader text={text} /> */}
 
       {/* <State /> */}
       {/* <Practice6 /> */}
