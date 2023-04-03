@@ -25,6 +25,7 @@ import State from './components/State';
 import PropsHeader from './components/PropsHeader';
 import { useState } from 'react';
 import PropsStyle from './components/PropsStyle';
+import TestSCSS from './components/TestSCSS';
 // import State2 from './components/State2';
 // import Practice2 from './components/Practice2';
 // import Condition from './components/Condition';
@@ -71,7 +72,8 @@ function App() {
 
   return (
     <div className="App">
-      <PropsStyle color={'orange'} />
+      <TestSCSS />
+      {/* <PropsStyle color={'orange'} /> */}
       {/* <PropsHeader text={text} /> */}
 
       {/* <State /> */}
